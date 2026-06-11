@@ -6,11 +6,7 @@
 }
 
 body{
-    background-image: url('background.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background:#f4f8fc;
     color:#333;
 }
 
@@ -44,11 +40,15 @@ nav a{
 
     background:
     linear-gradient(
-    135deg,
-    #2563eb,
-    #0ea5e9);
-}
+        rgba(15,23,42,0.75),
+        rgba(15,23,42,0.75)
+    ),
+    url('background.jpeg');
 
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
 .hero h1{
     color:white;
     font-size:4rem;
