@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swathi Gattem | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f8fafc;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#2563eb;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:60px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    color:#2563eb;
+    font-size:2rem;
+}
+
+.about{
+    text-align:center;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.skill{
+    background:#2563eb;
+    color:white;
+    padding:10px 18px;
+    border-radius:30px;
+}
+
+.timeline{
+    max-width:800px;
+    margin:auto;
+}
+
+.timeline-item{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-left:5px solid #2563eb;
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.08);
+}
+
+.project{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Swathi Gattem</h1>
+    <p>Data Science Student | AI & ML Enthusiast | Power BI Developer</p>
+
+    <a href="#contact" class="btn">Contact Me</a>
+</header>
+
+<section class="about">
+    <h2 class="section-title">About Me</h2>
+
+    <p>
+        I am a passionate Data Science student with expertise in Machine Learning,
+        Power BI, Tableau, Python, and Data Analytics. I enjoy solving real-world
+        problems using data-driven solutions and continuously learning emerging technologies.
+    </p>
+</section>
+
+<section>
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills">
+        <span class="skill">Python</span>
+        <span class="skill">Java</span>
+        <span class="skill">C</span>
+        <span class="skill">Machine Learning</span>
+        <span class="skill">Power BI</span>
+        <span class="skill">Tableau</span>
+        <span class="skill">EDA</span>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">Linux</span>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Education</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>B.Sc Data Science</h3>
+            <p>Aditya Degree College</p>
+            <p>2023 - 2026 | 92%</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Intermediate (MPC)</h3>
+            <p>Siddartha Junior College</p>
+            <p>2021 - 2023 | 95.9%</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>SSC</h3>
+            <p>Z.P High School</p>
+            <p>2020 - 2021 | 98.9%</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Project</h2>
+
+    <div class="project">
+        <h3>Heart Attack Risk Prediction</h3>
+
+        <p>
+            Developed a Machine Learning model to predict heart attack risk
+            using healthcare data. Performed EDA, preprocessing, feature
+            engineering and model evaluation.
+        </p>
+
+        <br>
+
+        <strong>Technologies:</strong>
+        Python, Logistic Regression, Random Forest, EDA
+
+        <br><br>
+
+        <strong>Accuracy:</strong> 86%
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Internships</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>AI & ML Intern</h3>
+            <p>VisionTech Pvt Ltd</p>
+            <p>2025</p>
+        </div>
+
+        <div class="card">
+            <h3>Power BI Intern</h3>
+            <p>ULearn</p>
+            <p>2025</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Certifications</h2>
+
+    <div class="cards">
+
+        <div class="card">Cisco - C Programming</div>
+        <div class="card">Infosys Springboard - Python</div>
+        <div class="card">Microsoft - GenAI</div>
+        <div class="card">Power BI</div>
+        <div class="card">AI & ML</div>
+        <div class="card">Statistics</div>
+        <div class="card">Business Writing</div>
+        <div class="card">Android Development</div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Achievement</h2>
+
+    <div class="project">
+        <h3>Research Paper Presentation</h3>
+
+        <p>
+            Presented the research paper:
+        </p>
+
+        <br>
+
+        <strong>
+            Ensemble Deep Learning for Cricket Score Prediction:
+            Integrating CNN, LSTM and DNN for Enhanced Accuracy
+        </strong>
+
+        <br><br>
+
+        <p>
+            Presented at the 4th International Conference on ICITSM'25.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <p><strong>Email:</strong> gattemswathi369@gmail.com</p>
+
+    <p><strong>Phone:</strong> 7730951388</p>
+
+    <p><strong>LinkedIn:</strong></p>
+
+    <a href="https://www.linkedin.com/in/swathi-gattem-4434462ba" target="_blank">
+        View LinkedIn Profile
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Swathi Gattem | Portfolio Website</p>
+</footer>
+
+</body>
+</html>
