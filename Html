@@ -1,303 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Swathi Gattem | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swathi Gattem | Portfolio</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
-
-body{
-    background:#f8fafc;
-    color:#333;
-    line-height:1.6;
-}
-
-header{
-    background:linear-gradient(135deg,#2563eb,#06b6d4);
-    color:white;
-    text-align:center;
-    padding:80px 20px;
-}
-
-header h1{
-    font-size:3rem;
-}
-
-header p{
-    margin-top:10px;
-    font-size:1.2rem;
-}
-
-.btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:12px 25px;
-    background:white;
-    color:#2563eb;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:bold;
-    transition:.3s;
-}
-
-.btn:hover{
-    transform:translateY(-3px);
-}
-
-section{
-    padding:60px 10%;
-}
-
-.section-title{
-    text-align:center;
-    margin-bottom:40px;
-    color:#2563eb;
-    font-size:2rem;
-}
-
-.about{
-    text-align:center;
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
-}
-
-.card{
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-8px);
-}
-
-.skills{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:15px;
-}
-
-.skill{
-    background:#2563eb;
-    color:white;
-    padding:10px 18px;
-    border-radius:30px;
-}
-
-.timeline{
-    max-width:800px;
-    margin:auto;
-}
-
-.timeline-item{
-    background:white;
-    padding:20px;
-    margin-bottom:20px;
-    border-left:5px solid #2563eb;
-    border-radius:10px;
-    box-shadow:0 5px 10px rgba(0,0,0,0.08);
-}
-
-.project{
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-}
-
-.contact{
-    text-align:center;
-}
-
-footer{
-    background:#0f172a;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-</style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-    <h1>Swathi Gattem</h1>
-    <p>Data Science Student | AI & ML Enthusiast | Power BI Developer</p>
+    <nav>
+        <div class="logo">Swathi Gattem</div>
 
-    <a href="#contact" class="btn">Contact Me</a>
-</header>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#internships">Internships</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-<section class="about">
-    <h2 class="section-title">About Me</h2>
+        <button id="theme-toggle">🌙</button>
+    </nav>
 
-    <p>
-        I am a passionate Data Science student with expertise in Machine Learning,
-        Power BI, Tableau, Python, and Data Analytics. I enjoy solving real-world
-        problems using data-driven solutions and continuously learning emerging technologies.
-    </p>
-</section>
+    <section class="hero">
 
-<section>
-    <h2 class="section-title">Skills</h2>
+        <div class="hero-content">
 
-    <div class="skills">
-        <span class="skill">Python</span>
-        <span class="skill">Java</span>
-        <span class="skill">C</span>
-        <span class="skill">Machine Learning</span>
-        <span class="skill">Power BI</span>
-        <span class="skill">Tableau</span>
-        <span class="skill">EDA</span>
-        <span class="skill">HTML</span>
-        <span class="skill">CSS</span>
-        <span class="skill">Linux</span>
-    </div>
-</section>
+            <span class="badge">
+                Open To Work
+            </span>
 
-<section>
-    <h2 class="section-title">Education</h2>
+            <h1>Swathi Gattem</h1>
 
-    <div class="timeline">
+            <h2>📊 Aspiring Data Analyst</h2>
 
-        <div class="timeline-item">
-            <h3>B.Sc Data Science</h3>
-            <p>Aditya Degree College</p>
-            <p>2023 - 2026 | 92%</p>
+            <p>
+                Passionate Data Analyst with hands-on experience in Excel,
+                SQL, Power BI, Tableau and Python.
+            </p>
+
+            <div class="buttons">
+
+                <a href="Swathi-Gattem-Resume.pdf"
+                    class="btn">
+                    Download Resume
+                </a>
+
+                <a href="https://www.linkedin.com/in/swathigattem"
+                    target="_blank"
+                    class="btn">
+                    LinkedIn
+                </a>
+
+                <a href="https://github.com/Swathi-Gattem"
+                    target="_blank"
+                    class="btn">
+                    GitHub
+                </a>
+
+            </div>
+
         </div>
 
-        <div class="timeline-item">
-            <h3>Intermediate (MPC)</h3>
-            <p>Siddartha Junior College</p>
-            <p>2021 - 2023 | 95.9%</p>
-        </div>
+    </section>
 
-        <div class="timeline-item">
-            <h3>SSC</h3>
-            <p>Z.P High School</p>
-            <p>2020 - 2021 | 98.9%</p>
-        </div>
+    <section id="about">
 
-    </div>
-</section>
-
-<section>
-    <h2 class="section-title">Project</h2>
-
-    <div class="project">
-        <h3>Heart Attack Risk Prediction</h3>
+        <h2>About Me</h2>
 
         <p>
-            Developed a Machine Learning model to predict heart attack risk
-            using healthcare data. Performed EDA, preprocessing, feature
-            engineering and model evaluation.
+            I am a Data Science student with a strong interest in analytics,
+            business intelligence and data-driven decision making.
         </p>
 
-        <br>
+    </section>
 
-        <strong>Technologies:</strong>
-        Python, Logistic Regression, Random Forest, EDA
+    <section id="skills">
 
-        <br><br>
+        <h2>Skills</h2>
 
-        <strong>Accuracy:</strong> 86%
-    </div>
-</section>
+        <div class="skills-grid">
 
-<section>
-    <h2 class="section-title">Internships</h2>
+            <div class="card">Excel</div>
+            <div class="card">SQL</div>
+            <div class="card">Power BI</div>
+            <div class="card">Tableau</div>
+            <div class="card">Python</div>
+            <div class="card">Machine Learning</div>
+            <div class="card">Statistics</div>
 
-    <div class="cards">
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project-card">
+
+            <img src="images/project1.jpg">
+
+            <h3>Global Superstore Dashboard</h3>
+
+            <p>
+                Interactive Power BI Dashboard
+                for sales and profit analysis.
+            </p>
+
+            <a href="#" class="btn">Live Demo</a>
+
+            <a href="https://github.com/Swathi-Gattem"
+                class="btn">
+                GitHub
+            </a>
+
+        </div>
+
+        <div class="project-card">
+
+            <img src="images/project2.jpg">
+
+            <h3>Heart Attack Risk Prediction</h3>
+
+            <p>
+                Machine Learning model using
+                Python and Scikit-Learn.
+            </p>
+
+            <a href="#" class="btn">Live Demo</a>
+
+            <a href="https://github.com/Swathi-Gattem"
+                class="btn">
+                GitHub
+            </a>
+
+        </div>
+
+    </section>
+
+    <section id="internships">
+
+        <h2>Internships</h2>
 
         <div class="card">
-            <h3>AI & ML Intern</h3>
-            <p>VisionTech Pvt Ltd</p>
-            <p>2025</p>
+            AI & ML Intern - VisionTech Pvt Ltd
         </div>
 
         <div class="card">
-            <h3>Power BI Intern</h3>
-            <p>ULearn</p>
-            <p>2025</p>
+            Power BI Intern - ULearn
         </div>
 
-    </div>
-</section>
+    </section>
 
-<section>
-    <h2 class="section-title">Certifications</h2>
+    <section id="contact">
 
-    <div class="cards">
+        <h2>Contact Me</h2>
 
-        <div class="card">Cisco - C Programming</div>
-        <div class="card">Infosys Springboard - Python</div>
-        <div class="card">Microsoft - GenAI</div>
-        <div class="card">Power BI</div>
-        <div class="card">AI & ML</div>
-        <div class="card">Statistics</div>
-        <div class="card">Business Writing</div>
-        <div class="card">Android Development</div>
+        <form>
 
-    </div>
-</section>
+            <input
+                type="text"
+                placeholder="Name">
 
-<section>
-    <h2 class="section-title">Achievement</h2>
+            <input
+                type="email"
+                placeholder="Email">
 
-    <div class="project">
-        <h3>Research Paper Presentation</h3>
+            <textarea
+                placeholder="Message">
+            </textarea>
 
-        <p>
-            Presented the research paper:
-        </p>
+            <button class="btn">
+                Send Message
+            </button>
 
-        <br>
+        </form>
 
-        <strong>
-            Ensemble Deep Learning for Cricket Score Prediction:
-            Integrating CNN, LSTM and DNN for Enhanced Accuracy
-        </strong>
+    </section>
 
-        <br><br>
-
-        <p>
-            Presented at the 4th International Conference on ICITSM'25.
-        </p>
-    </div>
-</section>
-
-<section id="contact" class="contact">
-    <h2 class="section-title">Contact</h2>
-
-    <p><strong>Email:</strong> gattemswathi369@gmail.com</p>
-
-    <p><strong>Phone:</strong> 7730951388</p>
-
-    <p><strong>LinkedIn:</strong></p>
-
-    <a href="https://www.linkedin.com/in/swathi-gattem-4434462ba" target="_blank">
-        View LinkedIn Profile
-    </a>
-</section>
-
-<footer>
-    <p>© 2026 Swathi Gattem | Portfolio Website</p>
-</footer>
+    <script src="script.js"></script>
 
 </body>
 </html>
